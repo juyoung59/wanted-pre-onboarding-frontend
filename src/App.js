@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
+import Main from "./page/Main";
 import Signup from "./page/Signup";
 import Signin from "./page/Signin";
 import Todo from "./page/Todo";
@@ -14,6 +15,7 @@ function App(props) {
     <BrowserRouter>
       <div className="App">
         <Routes>
+          <Route index element={<Main />} />
           <Route
             path="/signin"
             element={hasToken() ? <Navigate to="/todo" /> : <Signin />}
