@@ -10,21 +10,30 @@
 
 
 ## 👩🏻‍💻 프로젝트 실행 방법
-1. 이 저장소를 클론합니다.
-2. 프로젝트 디렉토리로 이동합니다.
-3. 필요한 패키지를 설치합니다.
+1. 저장소 클론
+   ```
+   git clone https://github.com/juyoung59/wanted-pre-onboarding-frontend.git
+   ```
+   
+2. 프로젝트 디렉토리로 이동
+
+   ```
+   cd wanted-pre-onboarding-frontend
+   ```
+   
+3. 필요한 패키지를 설치
 
     ```
    npm install
     ```
 
-4. 서버를 실행합니다.
+4. 서버 실행
 
     ```
    npm start
     ```
 
-5. http://localhost:3000로 이동하여 확인해주세요.
+5. http://localhost:3000로 이동하여 확인
 
 ## 🔗 배포 링크
 https://master--wanted-pre-onboarding-jy.netlify.app/
